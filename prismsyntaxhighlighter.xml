@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.6" type="plugin" group="content" method="upgrade">
-	<name>PRISMSYNTAXHIGHLIGHTER</name>
+	<name>PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER</name>
 	<author>Andre Hotzler</author>
-	<creationDate>23.02.2018</creationDate>
+	<creationDate>23.04.2018</creationDate>
 	<copyright>Andre Hotzler</copyright>
 	<license>MIT License</license>
 	<authorEmail>prismsyntaxhighlighter@nspw.andrehotzler.de</authorEmail>
-	<authorUrl>www.andrehotler.de</authorUrl>
-	<version>1.0.9</version>
-	<description>PLG_PRISMSYNTAXHIGHLIGHTER_XML_DESCRIPTION</description>
+	<authorUrl>https://www.andrehotzler.de/en/projects/prism-prismjs-com-syntaxhighlighter-for-joomla.html</authorUrl>
+	<version>1.1.0</version>
+	<description>PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_XML_DESCRIPTION</description>
 -	<updateservers>
 		<server type="extension" name="Updates - PRISM (prismjs.com) SyntaxHighlighter for Joomla!" priority="1">https://downloads.andrehotzler.de/prismsyntaxhighlighter/prismsyntaxhighlighter_updates.xml</server>
 	</updateservers>		
@@ -28,12 +28,12 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field name="prismtype" type="list" label="PLG_PRISMSYNTAXHIGHLIGHTER_TYPE" description="PLG_PRISMSYNTAXHIGHLIGHTER_TYPE_DESC" default="tinymce" size="1">
-					<option value="tinymce">PLG_PRISMSYNTAXHIGHLIGHTER_TINYMCE</option>
-					<option value="autoloader">PLG_PRISMSYNTAXHIGHLIGHTER_AUTLOADER</option>
-					<option value="all">PLG_PRISMSYNTAXHIGHLIGHTER_ALL</option>
+				<field name="prismtype" type="list" label="PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_TYPE" description="PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_TYPE_DESC" default="tinymce" size="1">
+					<option value="tinymce">PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_TINYMCE</option>
+					<option value="autoloader">PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_AUTLOADER</option>
+					<option value="all">PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_ALL</option>
 				</field>
-				<field name="prismstyle" type="list" label="PLG_PRISMSYNTAXHIGHLIGHTER_STYLE" description="PLG_PRISMSYNTAXHIGHLIGHTER_STYLE_DESC" default="default" size="1">
+				<field name="prismstyle" type="list" label="PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_STYLE" description="PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_STYLE_DESC" default="default" size="1">
 					<option value="default">default</option>
 					<option value="dark">dark</option>
 					<option value="coy">coy</option>
@@ -41,7 +41,7 @@
 					<option value="okaidia">okaidia</option>
 					<option value="solarized-light">solarized-light</option>
 				</field>
-				<field name="prismloadlinenumbers" type="radio"  default="1" class="switcher btn-group btn-group-yesno" label="PLG_PRISMSYNTAXHIGHLIGHTER_LOADLINENUMBERS" description="PLG_PRISMSYNTAXHIGHLIGHTER_LOADLINENUMBERS_DESC">		
+				<field name="prismloadlinenumbers" type="radio"  default="1" class="switcher btn-group btn-group-yesno" label="PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_LOADLINENUMBERS" description="PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_LOADLINENUMBERS_DESC">		
 					<option value="0">JNO</option>
 					<option value="1">JYES</option>
 				</field>
