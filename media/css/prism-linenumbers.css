@@ -5,14 +5,15 @@
  * @author Lea Verou
  */
 
-pre.line-numbers {
+ pre[class*="language-"].line-numbers {
 	position: relative;
 	padding-left: 3.8em;
 	counter-reset: linenumber;
 }
 
-pre.line-numbers > code {
+pre[class*="language-"].line-numbers > code {
 	position: relative;
+	white-space: inherit;
 }
 
 .line-numbers .line-numbers-rows {
@@ -45,3 +46,4 @@ pre.line-numbers > code {
 			padding-right: 0.8em;
 			text-align: right;
 		}
+

@@ -1,4 +1,5 @@
-/* http://prismjs.com/download.html?themes=prism-solarizedlight&languages=markup+css+clike+javascript */
+/* PrismJS 1.15.0
+https://prismjs.com/download.html#themes=prism-solarizedlight&languages=markup+css+clike+javascript */
 /*
  Solarized Color Schemes originally by Ethan Schoonover
  http://ethanschoonover.com/solarized
@@ -126,7 +127,8 @@ pre[class*="language-"] {
 	color: #859900; /* green */
 }
 
-.token.function {
+.token.function,
+.token.class-name {
 	color: #b58900; /* yellow */
 }
 
@@ -147,3 +149,4 @@ pre[class*="language-"] {
 .token.entity {
 	cursor: help;
 }
+
