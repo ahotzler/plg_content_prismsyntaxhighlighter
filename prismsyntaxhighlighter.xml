@@ -2,12 +2,12 @@
 <extension version="3.6" type="plugin" group="content" method="upgrade">
 	<name>PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER</name>
 	<author>Andre Hotzler</author>
-	<creationDate>27.09.2018</creationDate>
+	<creationDate>26.01.2019</creationDate>
 	<copyright>Andre Hotzler</copyright>
 	<license>MIT License</license>
 	<authorEmail>prismsyntaxhighlighter@nspw.andrehotzler.de</authorEmail>
 	<authorUrl>https://www.andrehotzler.de/en/projects/prism-prismjs-com-syntaxhighlighter-for-joomla.html</authorUrl>
-	<version>1.1.4</version>
+	<version>1.1.5</version>
 	<description>PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_XML_DESCRIPTION</description>
 	<updateservers>
 		<server type="extension" name="Updates - PRISM (prismjs.com) SyntaxHighlighter for Joomla!" priority="1">https://downloads.andrehotzler.de/prismsyntaxhighlighter/prismsyntaxhighlighter_updates.xml</server>
