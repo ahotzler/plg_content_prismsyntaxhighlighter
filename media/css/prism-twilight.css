@@ -1,5 +1,3 @@
-/* PrismJS 1.15.0
-https://prismjs.com/download.html#themes=prism-twilight&languages=markup+css+clike+javascript */
 /**
  * prism.js Twilight theme
  * Based (more or less) on the Twilight theme originally of Textmate fame.
@@ -10,6 +8,7 @@ pre[class*="language-"] {
 	color: white;
 	background: none;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
 	text-align: left;
 	text-shadow: 0 -.1em .2em black;
 	white-space: pre;
@@ -198,4 +197,3 @@ pre[data-line] {
 	content: attr(data-end);
 	top: auto;
 }
-

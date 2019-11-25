@@ -1,5 +1,3 @@
-/* PrismJS 1.15.0
-https://prismjs.com/download.html#themes=prism-funky&languages=markup+css+clike+javascript */
 /**
  * prism.js Funky theme
  * Based on “Polyfilling the gaps” talk slides http://lea.verou.me/polyfilling-the-gaps/
@@ -9,6 +7,7 @@ https://prismjs.com/download.html#themes=prism-funky&languages=markup+css+clike+
 code[class*="language-"],
 pre[class*="language-"] {
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -85,7 +84,7 @@ code[class*="language-"] {
 .token.entity,
 .token.url,
 .language-css .token.string,
-.toke.variable,
+.token.variable,
 .token.inserted {
 	color: yellowgreen;
 }
@@ -117,3 +116,15 @@ code[class*="language-"] {
 	color: red;
 }
 
+/* Plugin styles: Diff Highlight */
+pre.diff-highlight.diff-highlight > code .token.deleted:not(.prefix),
+pre > code.diff-highlight.diff-highlight .token.deleted:not(.prefix) {
+	background-color: rgba(255, 0, 0, .3);
+	display: inline;
+}
+
+pre.diff-highlight.diff-highlight > code .token.inserted:not(.prefix),
+pre > code.diff-highlight.diff-highlight .token.inserted:not(.prefix) {
+	background-color: rgba(0, 255, 128, .3);
+	display: inline;
+}

@@ -1,5 +1,3 @@
-/* PrismJS 1.15.0
-https://prismjs.com/download.html#themes=prism-dark&languages=markup+css+clike+javascript */
 /**
  * prism.js Dark theme for JavaScript, CSS and HTML
  * Based on the slides of the talk “/Reg(exp){2}lained/”
@@ -12,6 +10,7 @@ pre[class*="language-"] {
 	background: none;
 	text-shadow: 0 -.1em .2em black;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -128,4 +127,3 @@ pre[class*="language-"] {
 .token.deleted {
 	color: red;
 }
-
