@@ -42,10 +42,6 @@
 					<option value="tomorrownight">tomorrownight</option>
 					<option value="twilight">twilight</option>
 				</field>
-				<field name="prismloadlinenumbers" type="radio" default="1" class="switcher btn-group btn-group-yesno" label="PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_LOADLINENUMBERS" description="PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_LOADLINENUMBERS_DESC">		
-					<option value="0">JNO</option>
-					<option value="1">JYES</option>
-				</field>
 			</fieldset>
 		</fields>
 	</config>	
