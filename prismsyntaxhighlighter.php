@@ -22,6 +22,7 @@ class plgContentprismsyntaxhighlighter extends JPlugin
 							{
 								$document = JFactory::getDocument();
 								$document->addStyleSheet(JURI::base($pathonly=true).'/media/plg_content_prismsyntaxhighlighter/css/prism-' . $this->params->def('prismstyle','default') .'.css');
+								$document->addStyleSheet(JURI::base($pathonly=true).'/media/plg_content_prismsyntaxhighlighter/css/prism-linenumbers.css');
 								$document->addScript(JURI::base($pathonly=true).'/media/plg_content_prismsyntaxhighlighter/js/prism-' . $this->params->def('prismtype','tinymce') . '.js');
 							}
 					}
