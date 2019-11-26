@@ -8,7 +8,7 @@
 	<authorEmail>prismsyntaxhighlighter@nspw.andrehotzler.de</authorEmail>
 	<authorUrl>https://www.andrehotzler.de/en/projects/prism-prismjs-com-syntaxhighlighter-for-joomla.html</authorUrl>
 	<version>1.1.7</version>
-	<description><![CDATA[ <br />PRISM Syntax Highlighter für Joomla! provides syntax highlighting for use with TinyMCE.<br /> Further languages that are not directly selectable in TinyMCE can be used.<br /> <br />For examples, see: <a target="_blank" href='https://www.andrehotzler.de/en/projects/prism-prismjs-com-syntaxhighlighter-for-joomla.html'>https://www.andrehotzler.de/en/projects/prism-prismjs-com-syntaxhighlighter-for-joomla.html</a><br /> <br />If you use operation mode <strong>Autoloader</strong>, joomla has to be installed in the root of your webspace, not in a subfolder." <h2>Online-Documentation:</h2> <iframe width="100%" height="500px" src="https://www.andrehotzler.de/en/projects/prism-prismjs-com-syntaxhighlighter-for-joomla.html"></iframe>]]></description>
+	<description><![CDATA[<br />PRISM Syntax Highlighter for Joomla! provides syntax highlighting for use with TinyMCE.<br />Further languages that are not directly selectable in TinyMCE can be used.<br /><br />For examples, see: <a target="_blank" href='https://www.andrehotzler.de/en/projects/prism-prismjs-com-syntaxhighlighter-for-joomla.html'>https://www.andrehotzler.de/en/projects/prism-prismjs-com-syntaxhighlighter-for-joomla.html</a><br /><br />If you use operation mode <strong>Autoloader</strong>, joomla has to be installed in the root of your webspace, not in a subfolder." <h2>Online-Documentation:</h2> <iframe width="100%" height="500px" src="https://www.andrehotzler.de/en/projects/prism-prismjs-com-syntaxhighlighter-for-joomla.html"></iframe>]]></description>
 	<updateservers>
 		<server type="extension" name="Updates - PRISM (prismjs.com) SyntaxHighlighter for Joomla!" priority="1">https://downloads.andrehotzler.de/prismsyntaxhighlighter/prismsyntaxhighlighter_updates.xml</server>
 	</updateservers>		
@@ -36,12 +36,13 @@
 					<option value="default">default</option>
 					<option value="dark">dark</option>
 					<option value="coy">coy</option>
-					<option value="twilight">twilight</option>
+					<option value="funky">funky</option>
 					<option value="okaidia">okaidia</option>
-					<option value="solarized-light">solarized-light</option>
+					<option value="solarizedlight">solarizedlight</option>
 					<option value="tomorrownight">tomorrownight</option>
+					<option value="twilight">twilight</option>
 				</field>
-				<field name="prismloadlinenumbers" type="radio"  default="1" class="switcher btn-group btn-group-yesno" label="PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_LOADLINENUMBERS" description="PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_LOADLINENUMBERS_DESC">		
+				<field name="prismloadlinenumbers" type="radio" default="1" class="switcher btn-group btn-group-yesno" label="PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_LOADLINENUMBERS" description="PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER_LOADLINENUMBERS_DESC">		
 					<option value="0">JNO</option>
 					<option value="1">JYES</option>
 				</field>
