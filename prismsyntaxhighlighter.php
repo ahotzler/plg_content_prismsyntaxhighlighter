@@ -18,7 +18,7 @@ class plgContentprismsyntaxhighlighter extends JPlugin
 				if ($matches)
 					{
 						$app = JFactory::getApplication();
-						if ($app->isSite())
+						if ($app->isClient('site'))
 							{
 								$document = JFactory::getDocument();
 								$document->addStyleSheet(JURI::base($pathonly=true).'/media/plg_content_prismsyntaxhighlighter/css/prism-' . $this->params->def('prismstyle','default') .'.css');
