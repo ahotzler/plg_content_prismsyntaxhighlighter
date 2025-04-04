@@ -9,7 +9,11 @@
 
 defined('_JEXEC') or die;
 
-class plgContentprismsyntaxhighlighter extends JPlugin
+use Joomla\CMS\Factory;
+use Joomla\CMS\Plugin\CMSPlugin;
+
+
+class plgContentprismsyntaxhighlighter extends CMSPlugin
 	{
 		public function onContentPrepare($context, &$article, &$params, $page = 0)
 			{
@@ -17,7 +21,7 @@ class plgContentprismsyntaxhighlighter extends JPlugin
 				preg_match_all($regex, $article->text, $matches, PREG_SET_ORDER);
 				if ($matches)
 					{
-						$app = JFactory::getApplication();
+						$app = Factory::getApplication();
 						if ($app->isClient('site'))
 							{
 								$document = JFactory::getDocument();
