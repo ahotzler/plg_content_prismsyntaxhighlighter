@@ -10,6 +10,7 @@
 defined('_JEXEC') or die;
 
 use Joomla\CMS\Factory;
+use Joomla\CMS\Uri\Uri;
 use Joomla\CMS\Plugin\CMSPlugin;
 
 
@@ -24,10 +25,10 @@ class plgContentprismsyntaxhighlighter extends CMSPlugin
 						$app = Factory::getApplication();
 						if ($app->isClient('site'))
 							{
-								$document = JFactory::getDocument();
-								$document->addStyleSheet(JURI::base($pathonly=true).'/media/plg_content_prismsyntaxhighlighter/css/prism-' . $this->params->def('prismstyle','default') .'.css');
-								$document->addStyleSheet(JURI::base($pathonly=true).'/media/plg_content_prismsyntaxhighlighter/css/prism-linenumbers.css');
-								$document->addScript(JURI::base($pathonly=true).'/media/plg_content_prismsyntaxhighlighter/js/prism-' . $this->params->def('prismtype','tinymce') . '.js');
+								$document = Joomla\CMS\Factory::getDocument();
+								$document->addStyleSheet(Uri::base($pathonly=true).'/media/plg_content_prismsyntaxhighlighter/css/prism-' . $this->params->def('prismstyle','default') .'.css');
+								$document->addStyleSheet(Uri::base($pathonly=true).'/media/plg_content_prismsyntaxhighlighter/css/prism-linenumbers.css');
+								$document->addScript(Uri::base($pathonly=true).'/media/plg_content_prismsyntaxhighlighter/js/prism-' . $this->params->def('prismtype','tinymce') . '.js');
 							}
 					}
 			}
