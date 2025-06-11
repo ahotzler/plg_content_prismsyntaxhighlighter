@@ -1,7 +1,7 @@
 <?php
 /**
  * @package     Joomla.Plugin
- * @subpackage  Content.prismsyntaxhighlighte
+ * @subpackage  Content.prismsyntaxhighlighter
  *
  * @copyright   Copyright (C) 2018 Andre Hotzler. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -12,7 +12,6 @@ defined('_JEXEC') or die;
 use Joomla\CMS\Factory;
 use Joomla\CMS\Uri\Uri;
 use Joomla\CMS\Plugin\CMSPlugin;
-
 
 class plgContentprismsyntaxhighlighter extends CMSPlugin
 	{
@@ -34,5 +33,3 @@ class plgContentprismsyntaxhighlighter extends CMSPlugin
 			}
 	}
 ?>
-
-
