@@ -12,7 +12,7 @@ This Plugin adds the necessary JScript and CSS files to your site.
 * Use of Joomla!-Updater
 * possibilty to select various "Styles"
 * possibilty to use the autoloader feature to support more languages, than offered by TinyMCE
-* possibilty to use line-numbers (you have to add "line-numbers" to the css-class of the <pre>-Element)
+* possibilty to use line-numbers (you have to add "line-numbers" to the css-class of the \<pre\>-Element)
 * uses own and local CSS/JS storage, no loading of external ressources, syntaxhighlighting will not stop after removal of TinyMCE (some visual themes may load external fonts)
 
 [Examples](https://www.andrehotzler.de/en/projects/prism-prismjs-com-syntaxhighlighter-for-joomla.html)
