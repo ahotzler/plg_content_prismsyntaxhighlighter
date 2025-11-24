@@ -2,12 +2,12 @@
 <extension version="3.6" type="plugin" group="content" method="upgrade">
 	<name>PLG_CONTENT_PRISMSYNTAXHIGHLIGHTER</name>
 	<author>Andre Hotzler</author>
-	<creationDate>24.11.2025</creationDate>
+	<creationDate>24.11.2025</creationDate>
 	<copyright>Andre Hotzler</copyright>
 	<license>MIT License</license>
 	<authorEmail>prismsyntaxhighlighter@nspw.andrehotzler.de</authorEmail>
 	<authorUrl>https://www.andrehotzler.de/en/projects/prism-prismjs-com-syntaxhighlighter-for-joomla.html</authorUrl>
-	<version>1.2.7</version>
+	<version>1.2.8</version>
 	<description><![CDATA[<br />PRISM Syntax Highlighter for Joomla! provides syntax highlighting for use with TinyMCE.<br />Further languages that are not directly selectable in TinyMCE can be used.<br /><br />For examples, see: <a target='_blank' href='https://www.andrehotzler.de/en/projects/prism-prismjs-com-syntaxhighlighter-for-joomla.html'>https://www.andrehotzler.de/en/projects/prism-prismjs-com-syntaxhighlighter-for-joomla.html</a><br /><br />If you use operation mode <strong>Autoloader</strong>, joomla has to be installed in the root of your webspace, not in a subfolder. <p><a target="_blank" href="https://www.andrehotzler.de/en/projects/prism-prismjs-com-syntaxhighlighter-for-joomla.html">Online-Documentation for PRISM Syntax Highlighter für Joomla!</a></p>]]></description>
 	<updateservers>
 		<server type="extension" name="Updates - PRISM (prismjs.com) SyntaxHighlighter for Joomla!" priority="1">https://downloads.andrehotzler.de/prismsyntaxhighlighter/prismsyntaxhighlighter_updates.xml</server>
@@ -15,6 +15,7 @@
 	<files>
 		<filename plugin="prismsyntaxhighlighter">prismsyntaxhighlighter.php</filename>
 		<filename>license.txt</filename>
+		<filename>README.md</filename>
 	</files>
 	<languages folder="language">
 		<language tag="en-GB">en-GB/en-GB.plg_content_prismsyntaxhighlighter.sys.ini</language>
